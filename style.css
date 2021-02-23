@@ -2,6 +2,7 @@ body{
     margin: 0;
     width: auto;
     height: auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
@@ -10,5 +11,19 @@ header{
 }
 
 .cabecalho{
-    display: inline-block;
+    display: inline-flex;
+}
+
+#logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+li{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    font-weight: bold;
+    color: #212529;
 }
